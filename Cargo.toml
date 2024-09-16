@@ -1,0 +1,9 @@
+[package]
+name = "image_style"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "*"
+clap = { version = "*", features = ["derive"] }
+rayon = "*"
