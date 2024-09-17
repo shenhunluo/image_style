@@ -3,6 +3,10 @@ name = "image_style"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+path = "lib.rs"
+name = "image_style_lib"
+
 [dependencies]
 image = "*"
 clap = { version = "*", features = ["derive"] }
