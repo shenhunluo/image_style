@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 use image::{DynamicImage, GenericImageView, Rgba};
 
-pub(crate) fn get_dominant_color_in_window_with_weight(
+pub fn get_dominant_color_in_window_with_weight(
     img: &DynamicImage,
     x: u32,
     y: u32,
@@ -39,7 +39,7 @@ pub(crate) fn get_dominant_color_in_window_with_weight(
     ])
 }
 
-pub(crate) fn get_dominant_color_in_window(
+pub fn get_dominant_color_in_window(
     img: &DynamicImage,
     x: u32,
     y: u32,
